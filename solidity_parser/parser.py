@@ -1164,6 +1164,7 @@ def objectify(start_node):
                         self.isConstructor = node.isConstructor
                         self.isFallback = node.isFallback
                         self.isReceive = node.isReceive
+                        self.modifiers = node.modifiers
                     self.arguments = {}
                     self.returns = {}
                     self.declarations = {}
